@@ -25,3 +25,6 @@ files.
 ## Tools used
 
 -   [Marzipano Tool](https://www.marzipano.net/tool/)
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
