@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AdDU Virtual Tour</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes view-control-buttons">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-jacinto-gate-1">
+        <li class="text">Jacinto Gate 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-jacinto-gate-2">
+        <li class="text">Jacinto Gate 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-bellarmine---gisbert">
+        <li class="text">Bellarmine - Gisbert</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-campus-gf-center-quadrangle">
+        <li class="text">Campus GF Center quadrangle</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-canisius---bellarmine">
+        <li class="text">Canisius - Bellarmine</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-canisius-1">
+        <li class="text">Canisius 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-canisius-2">
+        <li class="text">Canisius 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-canisius-3">
+        <li class="text">Canisius 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-canisius-4">
+        <li class="text">Canisius 4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-canisius-5">
+        <li class="text">Canisius 5</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-ccfc---finster-bridgeway">
+        <li class="text">CCFC - Finster Bridgeway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-ccfc---jubilee-hall-bridgeway">
+        <li class="text">CCFC - Jubilee Hall Bridgeway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-ccfc-4f-artwalk-1">
+        <li class="text">CCFC 4F Artwalk 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-ccfc-4f-artwalk-2">
+        <li class="text">CCFC 4F Artwalk 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-ccfc-4f-artwalk-3">
+        <li class="text">CCFC 4F Artwalk 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-ccfc-gf-driveway">
+        <li class="text">CCFC GF Driveway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-ccfc-gf-elevator-lobby">
+        <li class="text">CCFC GF elevator lobby</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-ccfc-gf-rodriguez-hall">
+        <li class="text">CCFC GF Rodriguez Hall</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-college-clinic-entrance">
+        <li class="text">College Clinic Entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-college-clinic">
+        <li class="text">College Clinic</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-college-guidance-office-entrance">
+        <li class="text">College Guidance Office Entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-finster-alumni-affairs-office-entrance">
+        <li class="text">Finster Alumni Affairs Office Entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-finster-alumni-center-entrance">
+        <li class="text">Finster Alumni Center Entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-finster-alumni-center">
+        <li class="text">Finster Alumni Center</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-finster-gf-elevator-lobby">
+        <li class="text">Finster GF elevator lobby</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-finster-gf-roxas-gate-entrance-lobby">
+        <li class="text">Finster GF Roxas Gate entrance lobby</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-garden-in-front-of-jubilee-hall">
+        <li class="text">Garden in front of Jubilee Hall</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-gazebos-pathway">
+        <li class="text">Gazebos Pathway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-gisbert-g_f-hallway">
+        <li class="text">Gisbert G_F Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-icommp-office-1">
+        <li class="text">iCOMMP Office 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-icommp-office-2">
+        <li class="text">iCOMMP Office 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-jubilee-hall-gf-admissions">
+        <li class="text">Jubilee Hall GF Admissions</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-jubilee-hall-gf-front-entrance">
+        <li class="text">Jubilee Hall GF front entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-jubilee-hallway-sas">
+        <li class="text">Jubilee Hallway SAS</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-jubilee-hallway-sbg">
+        <li class="text">Jubilee Hallway SBG</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-jubilee-hallway-sea-_-soe">
+        <li class="text">Jubilee Hallway SEA _ SOE</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-lau-dato-si-pathway">
+        <li class="text">Lau Dato Si pathway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-martin-hall---bellarmine-hall">
+        <li class="text">Martin Hall - Bellarmine Hall</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38-martin-hall-entrance">
+        <li class="text">Martin Hall Entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-our-lady-of-the-assumption-chapel-entrance">
+        <li class="text">Our Lady of the Assumption Chapel entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40-ricci-hall-entrance-elevator-lobby">
+        <li class="text">Ricci Hall Entrance Elevator Lobby</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41-ricci-hall-entrance-left">
+        <li class="text">Ricci Hall Entrance Left</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="42-ricci-hall-entrance-right">
+        <li class="text">Ricci Hall Entrance Right</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="43-sas-office">
+        <li class="text">SAS Office</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="44-mig-pro---vending-machines">
+        <li class="text">Mig Pro - Vending Machines</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="45-mig-pro---computers">
+        <li class="text">Mig Pro - Computers</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="46-mig-pro---3">
+        <li class="text">Mig Pro - 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="47-mig-pro---4">
+        <li class="text">Mig Pro - 4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="48-mig-pro---collab-room">
+        <li class="text">Mig Pro - Collab Room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="49-mig-pro---5">
+        <li class="text">Mig Pro - 5</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="50-mig-pro---research-nook">
+        <li class="text">Mig Pro - Research Nook</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="51-mig-pro---research-nook-entrance">
+        <li class="text">Mig Pro - Research Nook Entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="52-mig-pro---study-tables">
+        <li class="text">Mig Pro - Study Tables</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="53-mig-pro---chill-place">
+        <li class="text">Mig Pro - Chill Place</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="54-mig-pro---2">
+        <li class="text">Mig Pro - 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="55-mig-pro---1">
+        <li class="text">Mig Pro - 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="56-mig-pro---entrance">
+        <li class="text">Mig Pro - Entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="57-chapel---2nd-floor">
+        <li class="text">Chapel - 2nd Floor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="58-chapel---2">
+        <li class="text">Chapel - 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="59-chapel---1">
+        <li class="text">Chapel - 1</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
