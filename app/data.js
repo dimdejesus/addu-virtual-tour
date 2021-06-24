@@ -1808,9 +1808,15 @@ var APP_DATA = {
                 },
                 {
                     yaw: 1.1172902725535891,
-                    pitch: 0.204286232623895,
+                    pitch: 0.1033103054645661,
                     rotation: 0,
                     target: "43-sas-office",
+                },
+                {
+                    yaw: 3.119287123820385,
+                    pitch: 0.0904286232623895,
+                    rotation: 0,
+                    target: "11-ccfc---jubilee-hall-bridgeway",
                 },
             ],
             infoHotspots: [
@@ -1822,8 +1828,8 @@ var APP_DATA = {
                         "This is where you can see the administrators of School of Arts and Sciences.",
                 },
                 {
-                    yaw: 3.061771512107617,
-                    pitch: 0.04184588414484125,
+                    yaw: 3.046879235683278,
+                    pitch: -0.05381877967350057,
                     title: "SON Office",
                     text:
                         "This is where you can see the administrators of School of Nursing.",
@@ -2163,6 +2169,12 @@ var APP_DATA = {
                     pitch: 0.02299014035692466,
                     rotation: 1.6,
                     target: "16-ccfc-gf-elevator-lobby",
+                },
+                {
+                    yaw: -1.6592319562841542,
+                    pitch: 0.0636076732974793,
+                    rotation: 0,
+                    target: "3-campus-gf-center-quadrangle",
                 },
             ],
             infoHotspots: [],
